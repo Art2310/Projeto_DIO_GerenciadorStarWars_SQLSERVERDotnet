@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Vnwts4/vAAaCT3dXR1LHfuW9W4JL95f/qkq3KvJ+O56bhMwL081zMDqlVvJlDydKGR8pWHNV30YUnxuOlfofig==",
+  "dgSpecHash": "+S6aPho376b4p1bz07AK3Ii+n8o7TDnj+rmMvrWz2D2sgI2MFedANwYlGjvimUVUZK3LzlnttPGDzojZbDk4UA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\artsa\\OneDrive\\Documents\\ProjetosDIO\\GerenciadorStarwarsSQLServerDotnet\\ControleAcessoEstrelaDaMorte-master\\src\\ConroleAcesso\\ConroleAcesso.csproj",
+  "projectFilePath": "C:\\Users\\artsa\\OneDrive\\Documentos\\ProjetosDIO\\Projeto_DIO_GerenciadorStarWars_SQLSERVERDotnet\\ControleAcessoEstrelaDaMorte-master\\src\\ConroleAcesso\\ConroleAcesso.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\artsa\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\artsa\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

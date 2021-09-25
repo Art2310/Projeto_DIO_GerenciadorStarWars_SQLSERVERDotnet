@@ -35,6 +35,9 @@ ALTER TABLE Pilotos ADD CONSTRAINT PK_Pilotos PRIMARY KEY (IdPiloto);
 GO
 ALTER TABLE Pilotos ADD CONSTRAINT FK_Pilotos_Planetas FOREIGN KEY(IdPlaneta)
 REFERENCES Planetas (IdPlaneta)
+GO
+ALTER TABLE Pilotos CHECK CONSTRAINT FK_Pilotos_Planetas
+GO
 
 CREATE TABLE PilotosNaves(
 	IdPiloto int NOT NULL,
@@ -51,7 +54,7 @@ ALTER TABLE PilotosNaves ADD CONSTRAINT FK_PilotosNaves_Naves FOREIGN KEY(IdNave
 REFERENCES Naves (IdNave)
 GO 
 ALTER TABLE PilotosNaves ADD CONSTRAINT DF_PilotosNaves_FlagAutorizado DEFAULT(1) FOR FlagAutorizado
-
+GO
 CREATE TABLE HistoricoViagens(
 	IdNave int NOT NULL,
 	IdPiloto int NOT NULL,
